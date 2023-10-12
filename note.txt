@@ -1,3 +1,4 @@
 tsc --init // typescript config file initilized
+ts-node index.ts
 
-current video number : 172
+current video number : 174
