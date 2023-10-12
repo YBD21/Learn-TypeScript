@@ -1,1 +1,3 @@
 tsc --init // typescript config file initilized
+
+current video number : 171
