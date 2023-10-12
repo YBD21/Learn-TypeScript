@@ -1,4 +1,7 @@
 tsc --init // typescript config file initilized
 ts-node index.ts
 
-current video number : 175
+current video number : 176
+
+Understand Design Patterns with TypeScript
+=> How do we use interfaces to wirte reusable code ?
