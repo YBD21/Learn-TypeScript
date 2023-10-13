@@ -1,7 +1,19 @@
 tsc --init // typescript config file initilized
 ts-node index.ts
 
-current video number : 176
+current video number : 177
 
-Understand Design Patterns with TypeScript
-=> How do we use interfaces to wirte reusable code ?
+Understand Design Patterns with TypeScript :
+1. How do we use interfaces to wirte reusable code ?
+2. Why do we care about the feature of the typescript ?
+3. When Do we use them ?
+
+
+Interface can define new Types i.e - custom type
+
+Their are Two Types : 
+
+ 1. Primitive Types ex. Boolean , Void 
+ 2. Object Types ex. function , arrays , classes , objects
+
+ 
