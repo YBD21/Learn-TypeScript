@@ -1,0 +1,10 @@
+When to use Type Annotations ?
+
+ans : 1. When we declare a variable on one line
+         then initilized it later.
+      
+      2. When we want a variable to have a type
+         that cannot be inferred.
+
+      3. When a function returns the 'any' type
+         and we need to clarify the value.   
