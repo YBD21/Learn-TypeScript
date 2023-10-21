@@ -28,3 +28,17 @@ let currentDate: Date = new Date();
 
 // Array -- string of an array
 let colors:string[] = ['red','green','blue']
+
+// Classes
+class Car {
+
+}
+
+let myCar: Car = new Car()
+
+// Object literal 
+
+let point:{x: number; y:number} = {
+    x:10,
+    y:20
+}
