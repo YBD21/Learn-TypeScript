@@ -1,7 +1,7 @@
 tsc --init // typescript config file initilized
 ts-node index.ts
 
-current video number : 182
+current video number : 183
 next : 180
 
 Understand Design Patterns with TypeScript :
