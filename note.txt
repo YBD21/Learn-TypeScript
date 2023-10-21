@@ -1,7 +1,8 @@
 tsc --init // typescript config file initilized
 ts-node index.ts
 
-current video number : 177
+current video number : 182
+next : 180
 
 Understand Design Patterns with TypeScript :
 1. How do we use interfaces to wirte reusable code ?
@@ -16,4 +17,7 @@ Their are Two Types :
  1. Primitive Types ex. Boolean , Void 
  2. Object Types ex. function , arrays , classes , objects
 
- 
+
+
+Type Annotations :  Developers tell TypeScript the type
+Type inference : TypeScript guesses the type
