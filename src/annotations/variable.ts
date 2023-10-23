@@ -59,10 +59,21 @@ console.log(coordinates); // {x: 10 , y:20}
 
 let words = ["red", "blue", "green"];
 
-let foundWord : boolean;
+let foundWord : boolean; // declear datatype as boolean
 
 for (let i = 0; i < words.length; i++) {
   if (words[i] === "green") {
     foundWord = true;
   }
-}
+} 
+
+// 3) Variable whose type cannot be inferred correctly
+let numberList = [-10,-1,12];
+// below datatypes either boolean or number
+let numberAboveZero : boolean | number = false; // default false
+
+for (let i = 0; i < numberList.length; i++) {
+    if (numberList[i] > 0){
+        numberAboveZero = numbers[i];
+    }
+} 
