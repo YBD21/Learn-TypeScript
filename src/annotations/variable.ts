@@ -22,29 +22,34 @@ const numberOfapple: number = 5;
 
 // numberOfapple = 'Ten' -- error
 
-
-// Build in objects 
+// Build in objects
 let currentDate: Date = new Date();
 
 // Array -- string of an array
-let colors:string[] = ['red','green','blue']
+let colors: string[] = ["red", "green", "blue"];
 
 // Classes
-class Car {
+class Car {}
 
-}
+let myCar: Car = new Car();
 
-let myCar: Car = new Car()
+// Object literal
 
-// Object literal 
-
-let point:{x: number; y:number} = {
-    x:10,
-    y:20
+let point: { x: number; y: number } = {
+  x: 10,
+  y: 20,
 };
 
-
 // Function
-const logNumber: (i:number) => void = (i:number) => {
-    console.log(i)
-}
+
+const logNumber: (i: number) => void = (i: number) => {
+  console.log(i);
+};
+
+// When to use anntoations
+// 1) Function that returns the 'any' type
+
+const json = '{"x" : 10 , "y" : 20}';
+
+const coordinates: { x: number; y: number } = JSON.parse(json); // currentType any
+console.log(coordinates); // {x: 10 , y:20}
