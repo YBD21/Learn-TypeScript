@@ -1,8 +1,8 @@
 tsc --init // typescript config file initilized
 ts-node index.ts
 
-current video number : 189
-next : 190
+current video number : 197
+next : 197
 
 Understand Design Patterns with TypeScript :
 1. How do we use interfaces to wirte reusable code ?
