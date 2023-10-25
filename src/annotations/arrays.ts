@@ -22,3 +22,7 @@ carMakers.map((car: string): string => {
 const importantDates: (Date | string)[] = [];
 importantDates.push("2030-10-10");
 importantDates.push(new Date());
+
+// When to use typed arrays ?
+
+// any time we need to represent a collection of records with some arbitary sort order
