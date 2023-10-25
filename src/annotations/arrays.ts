@@ -11,3 +11,8 @@ const yourCar = carMakers.pop();
 // Prevent incompatiable values
 // carMakers.push(100);
 
+// Help with 'map' with suggest
+
+carMakers.map((car: string): string => {
+  return car.toLocaleUpperCase();
+});
