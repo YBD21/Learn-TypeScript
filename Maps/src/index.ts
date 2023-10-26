@@ -1,3 +1,4 @@
+/// <reference types="@types/google.maps" />
 import { User } from "./components/User";
 import { Company } from "./components/Company";
 
