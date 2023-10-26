@@ -1,23 +1,27 @@
 class Vehicle {
   // method
-  drive(): void {
-    console.log("Car is Driving on its own");
-  }
-
   honk(): void {
     console.log("beep");
   }
 }
 
 class Bike extends Vehicle {
-  drive(): void {
+  private drive(): void {
     console.log("vroom vroom");
+  }
+
+  startDriving(): void {
+    this.drive();
   }
 }
 
 const myBike = new Bike();
 
-myBike.drive();
+myBike.startDriving();
 
 myBike.honk();
- 
+
+// modify -->
+// Public by Default
+// Private
+// Protected
