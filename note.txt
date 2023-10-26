@@ -21,3 +21,7 @@ Their are Two Types :
 
 Type Annotations :  Developers tell TypeScript the type
 Type inference : TypeScript guesses the type
+
+
+Run Parcel :
+parcel index.html
