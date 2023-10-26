@@ -38,8 +38,8 @@ const oldCivic = {
   },
 };
 
-const printVehicle = (item: Reportable): void => {
+const printSummary = (item: Reportable): void => {
   console.log(item.summary);
 };
 
-printVehicle(oldCivic);
+printSummary(oldCivic);
