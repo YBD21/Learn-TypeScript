@@ -8,3 +8,8 @@ ans : 1. When we declare a variable on one line
 
       3. When a function returns the 'any' type
          and we need to clarify the value.   
+
+
+Why we need tuple ? 
+
+we need tuple for extracting csv file and machineLearning
