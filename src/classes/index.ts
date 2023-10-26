@@ -9,10 +9,15 @@ class Vehicle {
   }
 }
 
-const mycar = new Vehicle();
+class Bike extends Vehicle {
+  drive(): void {
+    console.log("vroom vroom");
+  }
+}
 
-mycar.drive();
+const myBike = new Bike();
 
-mycar.honk();
+myBike.drive();
 
-
+myBike.honk();
+ 
