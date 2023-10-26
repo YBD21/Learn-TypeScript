@@ -25,20 +25,21 @@ interface Vehicle {
   name: string;
   year: Date;
   broken: boolean;
+}
+
+interface Reportable {
   summary(): string;
 }
 
 const oldCivic = {
-  name: "civic",
-  year: new Date(),
-  broken: true,
+  name: "Civic",
   summary(): string {
     return `Name : ${this.name}`;
   },
 };
 
-const printVehicle = (vehicle: Vehicle): void => {
-  console.log(vehicle);
+const printVehicle = (item: Reportable): void => {
+  console.log(item.summary);
 };
 
 printVehicle(oldCivic);
