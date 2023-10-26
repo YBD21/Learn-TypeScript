@@ -1,4 +1,5 @@
 class Vehicle {
+  constructor(public color: string) {}
   // method
   honk(): void {
     console.log("beep");
@@ -15,7 +16,7 @@ class Bike extends Vehicle {
   }
 }
 
-const myBike = new Bike();
+const myBike = new Bike("red");
 
 myBike.startDriving();
 
