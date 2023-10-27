@@ -10,11 +10,4 @@
 
 // console.log(company);
 
-const id: any = document.getElementById("map");
-new google.maps.Map(id, {
-  zoom: 3,
-  center: {
-    lat: 0,
-    lng: 0,
-  },
-});
+
