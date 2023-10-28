@@ -25,3 +25,7 @@ Type inference : TypeScript guesses the type
 
 Run Parcel :
 parcel index.html
+
+by defualt modifer : Public 
+Private : can only access with in the class 
+Protected : can only be accessed by its children 
