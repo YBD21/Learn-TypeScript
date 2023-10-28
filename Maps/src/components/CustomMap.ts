@@ -1,6 +1,4 @@
 /// <reference types="@types/google.maps" />
-import { User } from "./User";
-import { Company } from "./Company";
 
 // Instruction to every other class
 // on how they can be an arugment to 'addMarker'
