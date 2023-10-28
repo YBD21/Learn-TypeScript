@@ -10,7 +10,7 @@ export class CustomMap {
     const id: any = document.getElementById(divId);
 
     this.googleMap = new google.maps.Map(id, {
-      zoom: 3,
+      zoom: 1,
       center: {
         lat: 0,
         lng: 0,
